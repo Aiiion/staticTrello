@@ -18,15 +18,30 @@
         <h1>U06 - Alex</h1>
 
     </header>
-    <main class="row" id="sortable">
-        <ul id="todo" class="col-xl-4 col-lg-4 col-md-4 ui-sortable">
-            <li class="card ui-sortable-handle" id="card1">test1</li>
+    <h1 class="col-xl-4 col-lg-4 col-md-4">Todo</h1>
+    <h1 class="col-xl-4 col-lg-4 col-md-4">Doing</h1>
+    <h1 class="col-xl-4 col-lg-4 col-md-4">Done</h1>
+    <main class="row">
+        
+        <ul id="todo" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
+            
+            <div class="btn-lg ui-sortable-handle" id="card1" style="border:1px solid black; height:10vh;">
+                <p>test1</p>
+                <button class="btn-sm" id="btn1">dialog</button>
+            </div>
+            <div id="dialog1">
+                <p>textherehehehe</p>
+            </div>
+            <li class="card ui-sortable-handle" id="card1" style="border:1px solid black; height:10vh;">test11</li>
+        
         </ul>
-        <ul id="doing" class="col-xl-4 col-lg-4 col-md-4 ui-sortable">
-            <li class="card ui-sortable-handle" id="card2">test2</li>
+        
+        <ul id="doing" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
+            <li class="card ui-sortable-handle" id="card2" style="border:1px solid black; height:10vh;">test2</li>
         </ul>
-        <ul id="done" class="col-xl-4 col-lg-4 col-md-4 ui-sortable">
-            <li class="card ui-sortable-handle" id="card3">test3</li>
+        
+        <ul id="done" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
+            <li class="card ui-sortable-handle" id="card3" style="border:1px solid black; height:10vh;">test3</li>
         </ul>  
     </main>
     <!-- jquery -->
