@@ -1,141 +1,157 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <title>U06</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-    
+
 
 </head>
+
 <body class="container">
 
-    <header >
+    <header>
         <h1>U06 - Alex</h1>
 
     </header>
-    
-    
-    
+
+
+
     <main class="row">
-        
+
         <ul id="todo" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable">
             <h1 class=>Todo</h1>
-            <div class="btn-lg ui-sortable-handle text-center" id="card1">
+            <div class="btn-lg ui-sortable-handle text-center" id="card1" style="border:1px solid black; height:10vh;">
                 <p>test1</p>
                 <button class="btn btn-primary" data-id="#dialog1">dialog</button>
-                
+
             </div>
             <div class="btn-lg ui-sortable-handle text-center" id="card11" style="border:1px solid black; height:10vh;">
                 <p>test11</p>
                 <button class="btn btn-primary" data-id="#dialog11">dialog</button>
-                
+
             </div>
-            
-        
+
+
         </ul>
-        
+
         <ul id="doing" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable">
             <h1 class=>Doing</h1>
             <div class="btn-lg ui-sortable-handle text-center" id="card2" style="border:1px solid black; height:10vh;">
                 <p>test2</p>
                 <button class="btn btn-primary" data-id="#dialog2">dialog</button>
-                
+
             </div>
         </ul>
-        
+
         <ul id="done" class="card col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable">
             <h1 class=>Done</h1>
             <div class="btn-lg ui-sortable-handle text-center" id="card3" style="border:1px solid black; height:10vh;">
                 <p>test3</p>
                 <button class="btn btn-primary" data-id="#dialog3">dialog</button>
-                
+
             </div>
-        </ul>  
-        
+        </ul>
+
         <div id="dialog1" title="text" class="dialog card text-center">
             <div class="card-header">
-            <ul class="tabs-nav nav nav-tabs card-header-tabs">
-                <li class="col-xl-4 nav-item"><a href="#tab1">Nunc tincidunt</a></li>
-                <li class="col-xl-4 nav-item"><a href="#tab2">Proin dolor</a></li>
-                <li class="col-xl-4 nav-item"><a href="#tab3">pick a date</a></li>
-              </ul>
+                <ul class="tabs-nav nav nav-tabs card-header-tabs">
+                    <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab1">Nunc tincidunt</a></li>
+                    <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab2">Proin dolor</a></li>
+                    <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab3">pick a date</a></li>
+                </ul>
             </div>
-            <div id="tab1">
-                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
-              </div>
-              <div id="tab2">
-                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
-              </div>
-              <div id="tab3">
-                <p>Date: <input type="text" class="datepicker"></p>
-        
-              </div>
+            <div id="tab1" class="card-body">
+                <p class="card-text">Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec
+                    sollicitudin mi sit amet mauris. </p>
+            </div>
+            <div id="tab2" class="card-body">
+                <p class="card-text">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+                    nunc. Duis scelerisque molestie turpis. </p>
+            </div>
+            <div id="tab3" class="card-body">
+                <p class="card-text">Date: <input type="text" class="datepicker"></p>
+
+            </div>
         </div>
-        <div id="dialog11" title="text" class="dialog">
-            <ul class="tabs-nav">
-                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
-                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
-                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
-              </ul>
-          
-            <div id="tab1">
-                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
-              </div>
-              <div id="tab2">
-                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
-              </div>
-              <div id="tab3">
-                <p>Date: <input type="text" class="datepicker"></p>
-        
-              </div>
+        <div id="dialog11" title="text" class="dialog card text-center">
+            <div class="card-header">
+            <ul class="tabs-nav nav nav-tabs card-header-tabs">
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab3">pick a date</a></li>
+            </ul>
         </div>
-        <div id="dialog2" title="text" class="dialog">
-            <ul class="tabs-nav">
-                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
-                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
-                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
-              </ul>
-          
-            <div id="tab1">
-                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
-              </div>
-              <div id="tab2">
-                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
-              </div>
-              <div id="tab3">
-                <p>Date: <input type="text" class="datepicker"></p>
-        
-              </div>
+            <div id="tab1" class="card-body">
+                <p class="card-text">Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec
+                    sollicitudin mi sit amet mauris. </p>
+            </div>
+            <div id="tab2" class="card-body">
+                <p class="card-text">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+                    nunc. Duis scelerisque molestie turpis. </p>
+            </div>
+            <div id="tab3" class="card-body">
+                <p class="card-text">Date: <input type="text" class="datepicker"></p>
+
+            </div>
         </div>
-        <div id="dialog3" title="text" class="dialog">
-            <ul class="tabs-nav">
-                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
-                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
-                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
-              </ul>
-          
-            <div id="tab1">
-                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
-              </div>
-              <div id="tab2">
-                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
-              </div>
-              <div id="tab3">
-                <p>Date: <input type="text" class="datepicker"></p>
-        
-              </div>
+        <div id="dialog2" title="text" class="dialog card text-center">
+            <div class="card-header">
+            <ul class="tabs-nav nav nav-tabs card-header-tabs">
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab3">pick a date</a></li>
+            </ul>
         </div>
-        
+            <div id="tab1" class="card-body">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec
+                    sollicitudin mi sit amet mauris. </p>
+            </div>
+            <div id="tab2" class="card-body">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+                    nunc. Duis scelerisque molestie turpis. </p>
+            </div>
+            <div id="tab3" class="card-body">
+                <p>Date: <input type="text" class="datepicker"></p>
+
+            </div>
+        </div>
+        <div id="dialog3" title="text" class="dialog card text-center">
+            <div class="card-header">
+            <ul class="tabs-nav nav nav-tabs card-header-tabs">
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4 nav-item"><a class="nav-link" href="#tab3">pick a date</a></li>
+            </ul>
+        </div>
+            <div id="tab1" class="card-body">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec
+                    sollicitudin mi sit amet mauris. </p>
+            </div>
+            <div id="tab2" class="card-body">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+                    nunc. Duis scelerisque molestie turpis. </p>
+            </div>
+            <div id="tab3" class="card-body">
+                <p>Date: <input type="text" class="datepicker"></p>
+
+            </div>
+        </div>
+
     </main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
     <!-- Local Javascript/jquery code-->
     <script src="script.js"></script>
 </body>
+
 </html>
