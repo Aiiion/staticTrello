@@ -3,12 +3,8 @@
     <meta charset="UTF-8">
     <title>U06</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-  
     
 
 </head>
@@ -18,50 +14,53 @@
         <h1>U06 - Alex</h1>
 
     </header>
-    <h1 class="col-xl-4 col-lg-4 col-md-4">Todo</h1>
-    <h1 class="col-xl-4 col-lg-4 col-md-4">Doing</h1>
-    <h1 class="col-xl-4 col-lg-4 col-md-4">Done</h1>
+    
+    
+    
     <main class="row">
         
-        <ul id="todo" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
-            
-            <div class="btn-lg ui-sortable-handle" id="card1" style="border:1px solid black; height:10vh;">
+        <ul id="todo" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable">
+            <h1 class=>Todo</h1>
+            <div class="btn-lg ui-sortable-handle text-center" id="card1">
                 <p>test1</p>
-                <button class="btn" data-id="#dialog1">dialog</button>
+                <button class="btn btn-primary" data-id="#dialog1">dialog</button>
                 
             </div>
-            <div class="btn-lg ui-sortable-handle" id="card11" style="border:1px solid black; height:10vh;">
+            <div class="btn-lg ui-sortable-handle text-center" id="card11" style="border:1px solid black; height:10vh;">
                 <p>test11</p>
-                <button class="btn" data-id="#dialog11">dialog</button>
+                <button class="btn btn-primary" data-id="#dialog11">dialog</button>
                 
             </div>
             
         
         </ul>
         
-        <ul id="doing" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
-            <div class="btn-lg ui-sortable-handle" id="card2" style="border:1px solid black; height:10vh;">
+        <ul id="doing" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable">
+            <h1 class=>Doing</h1>
+            <div class="btn-lg ui-sortable-handle text-center" id="card2" style="border:1px solid black; height:10vh;">
                 <p>test2</p>
-                <button class="btn" data-id="#dialog2">dialog</button>
+                <button class="btn btn-primary" data-id="#dialog2">dialog</button>
                 
             </div>
         </ul>
         
-        <ul id="done" class="card col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
-            <div class="btn-lg ui-sortable-handle" id="card3" style="border:1px solid black; height:10vh;">
+        <ul id="done" class="card col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable">
+            <h1 class=>Done</h1>
+            <div class="btn-lg ui-sortable-handle text-center" id="card3" style="border:1px solid black; height:10vh;">
                 <p>test3</p>
-                <button class="btn" data-id="#dialog3">dialog</button>
+                <button class="btn btn-primary" data-id="#dialog3">dialog</button>
                 
             </div>
         </ul>  
         
-        <div id="dialog1" title="text" class="dialog">
-            <ul class="tabs-nav">
-                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
-                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
-                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
+        <div id="dialog1" title="text" class="dialog card text-center">
+            <div class="card-header">
+            <ul class="tabs-nav nav nav-tabs card-header-tabs">
+                <li class="col-xl-4 nav-item"><a href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4 nav-item"><a href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4 nav-item"><a href="#tab3">pick a date</a></li>
               </ul>
-          
+            </div>
             <div id="tab1">
                 <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
               </div>
@@ -129,6 +128,8 @@
         </div>
         
     </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
