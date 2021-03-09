@@ -27,22 +27,107 @@
             
             <div class="btn-lg ui-sortable-handle" id="card1" style="border:1px solid black; height:10vh;">
                 <p>test1</p>
-                <button class="btn-sm" id="btn1">dialog</button>
+                <button class="btn" data-id="#dialog1">dialog</button>
+                
             </div>
-            <div id="dialog1">
-                <p>textherehehehe</p>
+            <div class="btn-lg ui-sortable-handle" id="card11" style="border:1px solid black; height:10vh;">
+                <p>test11</p>
+                <button class="btn" data-id="#dialog11">dialog</button>
+                
             </div>
-            <li class="card ui-sortable-handle" id="card1" style="border:1px solid black; height:10vh;">test11</li>
+            
         
         </ul>
         
         <ul id="doing" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
-            <li class="card ui-sortable-handle" id="card2" style="border:1px solid black; height:10vh;">test2</li>
+            <div class="btn-lg ui-sortable-handle" id="card2" style="border:1px solid black; height:10vh;">
+                <p>test2</p>
+                <button class="btn" data-id="#dialog2">dialog</button>
+                
+            </div>
         </ul>
         
-        <ul id="done" class="col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
-            <li class="card ui-sortable-handle" id="card3" style="border:1px solid black; height:10vh;">test3</li>
+        <ul id="done" class="card col-xl-4 col-lg-4 col-md-4 ui-sortable connectSortable" style="border:1px solid black; height:40vh;">
+            <div class="btn-lg ui-sortable-handle" id="card3" style="border:1px solid black; height:10vh;">
+                <p>test3</p>
+                <button class="btn" data-id="#dialog3">dialog</button>
+                
+            </div>
         </ul>  
+        
+        <div id="dialog1" title="text" class="dialog">
+            <ul class="tabs-nav">
+                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
+              </ul>
+          
+            <div id="tab1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
+              </div>
+              <div id="tab2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
+              </div>
+              <div id="tab3">
+                <p>Date: <input type="text" class="datepicker"></p>
+        
+              </div>
+        </div>
+        <div id="dialog11" title="text" class="dialog">
+            <ul class="tabs-nav">
+                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
+              </ul>
+          
+            <div id="tab1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
+              </div>
+              <div id="tab2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
+              </div>
+              <div id="tab3">
+                <p>Date: <input type="text" class="datepicker"></p>
+        
+              </div>
+        </div>
+        <div id="dialog2" title="text" class="dialog">
+            <ul class="tabs-nav">
+                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
+              </ul>
+          
+            <div id="tab1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
+              </div>
+              <div id="tab2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
+              </div>
+              <div id="tab3">
+                <p>Date: <input type="text" class="datepicker"></p>
+        
+              </div>
+        </div>
+        <div id="dialog3" title="text" class="dialog">
+            <ul class="tabs-nav">
+                <li class="col-xl-4"><a href="#tab1">Nunc tincidunt</a></li>
+                <li class="col-xl-4"><a href="#tab2">Proin dolor</a></li>
+                <li class="col-xl-4"><a href="#tab3">pick a date</a></li>
+              </ul>
+          
+            <div id="tab1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. </p>
+              </div>
+              <div id="tab2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. </p>
+              </div>
+              <div id="tab3">
+                <p>Date: <input type="text" class="datepicker"></p>
+        
+              </div>
+        </div>
+        
     </main>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
