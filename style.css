@@ -1,0 +1,33 @@
+.ui-dialog-titlebar-close{
+    height:2vh;
+    width:2vh;
+    float:right;
+}
+.ui-dialog-title{
+    padding:2vh;
+    font-size:20px;
+    text-align:center;
+    
+}
+.ui-dialog-titlebar{
+    text-align:center;
+    background-color:rgba(235, 188, 140, 0.7);
+    
+}
+.ui-dialog{
+    width:30vw !important;
+    height:80vh !important;
+}
+
+.columnStyling{
+    border:2px dashed rgba(235, 188, 150, 0.5);
+    background-color: rgba(235, 188, 150, 0.2);
+    border-radius: 5px;;
+}
+.connectSortable{
+    min-height: 20vh;
+}
+.btn-primary{
+    background-color: rgba(207, 143, 40, 0.7);
+    border:darkgoldenrod;
+}
