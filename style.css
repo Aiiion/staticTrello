@@ -16,7 +16,6 @@
 }
 .ui-dialog{
     width:30vw !important;
-    height:80vh !important;
 }
 
 .columnStyling{
@@ -30,4 +29,7 @@
 .btn-primary{
     background-color: rgba(207, 143, 40, 0.7);
     border:darkgoldenrod;
+}
+.datepicker{
+    background-color: antiquewhite;
 }
